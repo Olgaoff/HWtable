@@ -6,27 +6,32 @@ ul, ol {
     list-style: none;
 }
 .title {
-    margin-top: 20px;
-    margin-bottom: 20 px;
+    margin-left: 20px;
+    margin-right: 20 px;
     text-align: center;
 }
 
-.container
+.container {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.container1
 {
-margin: 20px;
+margin-left: 20px;
+margin-right: 20px;
+border: 2px solid black;
 }
 
 
 .post_item{
     border: 1px solid yellowgreen;
-    padding: 16px 10px;
+    padding: 20px;
     border-radius: 8px;
     background: teal;
     color: black;
 }
-.post_item:nth-child(2) {
-    margin: 10px;
-}
+
 .table{
     background-color: aquamarine;
     border: 1px solid black;
@@ -46,6 +51,7 @@ margin: 20px;
     color: blue;
     text-align: center;
 }
+
 .tr {
     border: 2px solid black;
     padding: 8px;
@@ -60,25 +66,28 @@ margin: 20px;
     background: yellow;
     border-radius: 50%;
     text-align: center;
-
 }
+
 .img img  {
     max-width: 25px;
     max-height: 25px;
     text-align: center;
 }
+
 .img {
     max-width: 150px;
     max-height: 150px;
     text-align: center;
 }
+
 .first {
-    text-align: center;
-    
+    text-align: center;   
 }
+
 .twoo {
     text-align: center;
 }
+
 .tree {
     text-align: center;
 }
